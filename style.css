@@ -1,22 +1,16 @@
 body {
-  margin: 0;
+  margin: 20px;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-main {
-  display: flex;
-  flex-flow: row wrap;
+.block {
+  display: grid;
   justify-content: center;
-  padding: 10px;
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-auto-rows: 200px;
+  grid-auto-flow: row dense;
+  grid-gap: 20px;
 }
-
-main article {
-  width: 100px;
-  height: 200px;
-  margin: 10px;
-  background: gray;
+.block > article {
+  background: rgb(45, 8, 100);
+  padding: 0;
+  border-radius: 5px;
 }
-

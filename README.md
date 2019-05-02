@@ -26,4 +26,3 @@
 Пункт 5 — важка задача, тому буде зараховано будь-яке її робоче розв'язання.
 
 https://annakondr.github.io/task-2-05-19/
-https://annakondr.github.io
